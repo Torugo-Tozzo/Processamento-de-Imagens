@@ -1,0 +1,6 @@
+varrer uma img:
+for(i=0 ; i < numero de linhas ; i++){
+  for(j=0 ; j < numero de colunas ; j++){
+      operações de alteração da img
+  }
+}
