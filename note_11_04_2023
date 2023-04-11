@@ -1,0 +1,11 @@
+Os vizinhos de um determinado pixel (i,j) são: 
+adj = 4: { (i+1,j), (i-1,j), (i,j-1), (i,j-1)} (ortogonais)
+adj = 8: {(i+1,j), (i-1,j), (i,j-1), (i,j-1),(i+1,j+j), (i-1,j-1), (i+1,j-1), (i-1,j+1)} (ortogonais + diagonais)
+
+euclidiana d = raiz((i1 - i2)^2 + (j1 - j2)^2)
+
+city-block d = |i1 - i2| + |j1 - j2|
+
+distancia xadrez d = max(|i1 - i2|,j1-j2|)
+
+eog -> visualizador linux
